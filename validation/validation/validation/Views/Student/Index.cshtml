@@ -1,0 +1,17 @@
+﻿
+@{
+    ViewBag.Title = "create";
+}
+<div>
+    <h1>@ViewBag.Subcription</h1>
+
+    <h4>price</h4>
+    <ul>
+        @foreach (var item in ViewBag.price)
+        {
+            <li>@item</li>
+        }
+    </ul>
+</div>
+
+
